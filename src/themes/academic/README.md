@@ -25,7 +25,7 @@
 
 **Key features:**
 
-- **Page builder** - Create *anything* with [**widgets**](https://sourcethemes.com/academic/docs/page-builder/) and [**elements**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
+- **Page builder** - Create _anything_ with [**widgets**](https://sourcethemes.com/academic/docs/page-builder/) and [**elements**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
 - **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
 - **Create content** in [**Markdown**](https://sourcethemes.com/academic/docs/writing-markdown-latex/), [**Jupyter**](https://sourcethemes.com/academic/docs/jupyter/), or [**RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
 - **Plugin System** - Fully customizable [**color** and **font themes**](https://sourcethemes.com/academic/themes/)
@@ -57,74 +57,74 @@ Choose a stunning theme for your site and [customize it](https://sourcethemes.co
 
 ## Ecosystem
 
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
+- **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
+- **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
 
 ## Install
 
 You can choose from one of the following four methods to install:
 
-* **one-click install using your web browser (recommended)**
-* install on your computer using Git with the Command Prompt/Terminal app
-* install on your computer by downloading the ZIP files
-* install on your computer with RStudio
+- **one-click install using your web browser (recommended)**
+- install on your computer using Git with the Command Prompt/Terminal app
+- install on your computer by downloading the ZIP files
+- install on your computer with RStudio
 
 ### Install with web browser
 
 [**Create your site now with Netlify** :rocket:](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
 
-* One-click install of Academic creates an `academic-kickstart` repository in your GitHub or GitLab account
-* Netlify will provide you with a customizable URL to access your new site, [or get your own domain](https://sourcethemes.com/academic/docs/domain/)
-* Around 1-5 minutes after editing content in your repository, your site will automatically update
+- One-click install of Academic creates an `academic-kickstart` repository in your GitHub or GitLab account
+- Netlify will provide you with a customizable URL to access your new site, [or get your own domain](https://sourcethemes.com/academic/docs/domain/)
+- Around 1-5 minutes after editing content in your repository, your site will automatically update
   - If your site fails to update, [login to Netlify](https://www.netlify.com/), click your site, go to **Deploys**, and review the latest deploy log for any errors
-* To **easily edit your site in a rich online editor in your browser**,
+- To **easily edit your site in a rich online editor in your browser**,
   - [Login to Netlify](https://www.netlify.com/) and click the site you deployed with Netlify
   - Go to **Settings > Identity**, and select **Enable Identity** service
   - Under **Registration** preferences, select **Invite Only**
   - Scroll down to **Services > Git Gateway**, and click **Enable Git Gateway**
   - Head over to **`YOUR_SITE.com/admin/`** to view your content management panel and begin publishing content
   - For support with _Netlify CMS_ admin panel, refer to the [Netlify CMS docs](https://www.netlifycms.org/docs/add-to-your-site/#authentication) and the very active [Netlify CMS community](https://www.netlifycms.org/community/)
-* To edit your site in a [Markdown editor](https://www.typora.io) on your computer,
-  - Perform the steps in the [*Install with Git*](#install-with-git) section below
+- To edit your site in a [Markdown editor](https://www.typora.io) on your computer,
+  - Perform the steps in the [_Install with Git_](#install-with-git) section below
 
-Once you have followed the link above to automatically install Academic, head on over to your new `academic-kickstart` repository in your GitHub (or GitLab) account and [personalize your site by editing the files in](https://sourcethemes.com/academic/docs/get-started/) `config/_default/`. Shortly after saving (i.e. *committing* a file), your site will automatically update.
-   
+Once you have followed the link above to automatically install Academic, head on over to your new `academic-kickstart` repository in your GitHub (or GitLab) account and [personalize your site by editing the files in](https://sourcethemes.com/academic/docs/get-started/) `config/_default/`. Shortly after saving (i.e. _committing_ a file), your site will automatically update.
+
 View the [Homepage Builder](https://sourcethemes.com/academic/docs/page-builder/) and [Content](https://sourcethemes.com/academic/docs/managing-content/) guides to learn how to add widgets and content. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://academic-demo.netlify.app).
 
 ### Install with Git
 
 Prerequisites:
 
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo Extended v0.65-v0.72](https://gohugo.io/getting-started/installing/#quick-install)
+- [Download and install Git](https://git-scm.com/downloads)
+- [Download and install Hugo Extended v0.65-v0.72](https://gohugo.io/getting-started/installing/#quick-install)
 
 Install:
 
-1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository to create a new website
-   * If you already created your site with **Netlify**, then skip this step
-2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username: 
+1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the _Keyple Kickstart_ repository to create a new website
+   - If you already created your site with **Netlify**, then skip this step
+2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username:
 
-    ```bash
-    git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    ```
-    
+   ```bash
+   git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
+   ```
+
 3. Initialize the theme:
 
-    ```bash
-    cd My_Website
-    git submodule update --init --recursive
-    ```
+   ```bash
+   cd My_Website
+   git submodule update --init --recursive
+   ```
 
 ### Install with ZIP
 
 Prerequisites:
 
-* [Download and install Hugo Extended v0.65-v0.72](https://gohugo.io/getting-started/installing/#quick-install)
+- [Download and install Hugo Extended v0.65-v0.72](https://gohugo.io/getting-started/installing/#quick-install)
 
 Install:
 
-1. [Download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip) and extract *Academic Kickstart*
-2. [Download](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract the *Academic theme* files from the `hugo-academic-master` folder to the `themes/academic/` folder in *Academic Kickstart*
+1. [Download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip) and extract _Keyple Kickstart_
+2. [Download](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract the _Academic theme_ files from the `hugo-academic-master` folder to the `themes/academic/` folder in _Keyple Kickstart_
 
 ### Install with RStudio
 
@@ -148,7 +148,7 @@ cp -av themes/academic/exampleSite/* .
 
 [View the Update Guide](https://sourcethemes.com/academic/docs/update/).
 
-Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) and follow [@source_themes](https://twitter.com/source_themes) on Twitter to help keep track of [updates](https://sourcethemes.com/academic/updates).
+Feel free to _star_ the project on [Github](https://github.com/gcushen/hugo-academic/) and follow [@source_themes](https://twitter.com/source_themes) on Twitter to help keep track of [updates](https://sourcethemes.com/academic/updates).
 
 ## License
 
