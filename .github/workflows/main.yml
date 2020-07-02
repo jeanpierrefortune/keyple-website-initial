@@ -33,7 +33,7 @@ jobs:
         working-directory: ./
         
       - name: Tune Asciidoctor 
-        run: ./script/setup.sh
+        run: ./scripts/setup.sh
          
       - name: Build
         run: hugo --minify
