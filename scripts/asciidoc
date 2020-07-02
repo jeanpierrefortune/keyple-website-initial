@@ -1,0 +1,2 @@
+#!/bin/bash
+/opt/hostedtoolcache/Ruby/2.7.1/x64/bin/asciidoctor_real -r asciidoctor-html5s -b html5s "$@"
