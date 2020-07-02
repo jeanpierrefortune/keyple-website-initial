@@ -1,0 +1,6 @@
+$dokka.format:markdown
+$dokka.linkExtension:md
+
+org.eclipse.keyple.plugin.android.omapi
+org.eclipse.keyple.plugin.android.omapi.se
+org.eclipse.keyple.plugin.android.omapi.simalliance
