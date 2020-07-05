@@ -18,6 +18,25 @@ This getting stated contains one ready-to-execute JAVA example starting from a n
 
 The example demonstrate Keyple capabilities with the Keyple PCSC plugin and PO/SAM provided in the Calypso Test Kit.
 
+## Code toggle test
+
+{{% java-kotlin-cpp 
+java=`SelectionsResult selectionsResult = seSelection.processExplicitSelection(reader);
+if (selectionsResult.hasActiveSelection()) {
+    MatchingSe matchingSe = selectionsResult.getActiveMatchingSe();
+}`  
+kotlin=`val selectionsResult = seSelection.processExplicitSelection(reader)
+if (selectionsResult.hasActiveSelection()) {
+    val matchingSe = selectionsResult.activeMatchingSe
+}` 
+cpp=`if (selectionResult->hasActiveSelection()) {
+    std::shared_ptr<MatchingSelection> matchingSelection =
+        selectionResult->getActiveSelection();
+    std::shared_ptr<CalypsoPo> calypsoPo =
+        std::dynamic_pointer_cast<CalypsoPo>(
+            matchingSelection->getMatchingSe());`
+%}}
+
 ## Build
 
 The example can run on any machine: Linux, Windows and MacOS. If not installed in your machine, you will need to download :
