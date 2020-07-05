@@ -24,7 +24,7 @@ DiagramBlock &amp;lt;|-- PlantUmlBlock&lt;/pre>&lt;/div>&lt;/section>
 &lt;/script>
 &lt;section class="project-tab" id="tabs">
 &lt;div class="container">
-&lt;div class="row">
+&lt;div class="flex-row">
 &lt;div class="mw-100">
 &lt;nav>
 &lt;div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
