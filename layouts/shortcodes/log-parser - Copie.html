@@ -1,0 +1,108 @@
+<div class="container">
+    <h2>
+        Keyple log parser
+    </h2>
+    <p>
+        Paste your log here (trace level) and press the parse button:
+    </p>
+    <form name="form1">
+        <div class="form-group">
+            <label for="content">
+                Log content:
+            </label>
+            <textarea class="form-control" id="content" name="log" rows="5" style="margin-bottom: 10px;">
+            </textarea>
+            <button class="btn btn-primary btn-md" id="parse">
+                Parse
+            </button>
+            <label>
+                <input name="raw" type="checkbox" value="">
+                    Show raw data
+                </input>
+            </label>
+            <label>
+                <input name="genstub" type="checkbox" value="">
+                    Generate stub commands code
+                </input>
+            </label>
+        </div>
+    </form>
+    <p>
+        The transaction trace:
+    </p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Step
+                </th>
+                <th>
+                    Target
+                </th>
+                <th>
+                    Command/Action
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="info">
+                <td style="border-color:black;">
+                    1
+                </td>
+                <td style="border-color:black;">
+                    PO: ASK LoGO 0
+                </td>
+                <td style="border-color:black;">
+                    <p class="bg-success text-left">
+                        ★ COMMAND               [timestamp: 0 ms]
+                    </p>
+                    <p class="bg-primary">
+                        Internal Select Application
+                    </p>
+                    <pre>  Header: <a data-toggle="tooltip" title="CLA = 00<br/>INS = A4<br/>P1 = 04<br/>P2 = 00">00A4 0400</a><br/>      Lc: <a data-toggle="tooltip" title="9 byte(s)">09</a><br/> Data in: <a data-toggle="tooltip" title="10 byte(s)<br/>Ascii: 1TIC.ICA1">315449432E49434131</a><br/>      Le: <a data-toggle="tooltip" title="0 byte(s)">00</a><br/></pre>
+                </td>
+            </tr>
+            <tr class="info">
+                <td style="border-color:transparent;">
+                </td>
+                <td style="border-color:transparent;">
+                </td>
+                <td style="border-color:transparent;">
+                    <p class="bg-success">
+                        ★ RESPONSE (execution time 16.1 ms)
+                    </p>
+                    <pre>Data out: <a data-toggle="tooltip" title="37 byte(s)<br/>Ascii: o#..1TIC.ICA1............{.XS..<#....">6F238409315449432E49434131A516BF0C13C70800000000C17BE25853070A3C2305141001</a><br/>      SW: <a data-toggle="tooltip" title="SUCCESS">9000</a></pre>
+                </td>
+            </tr>
+            <tr class="warning">
+                <td style="border-color:black;">
+                    4
+                </td>
+                <td style="border-color:black;">
+                    SAM: Identive CLOUD 2700 R Smart Card Reader 0
+                </td>
+                <td style="border-color:black;">
+                    <p class="bg-success text-left">
+                        ★ COMMAND               [timestamp: 227 ms]
+                    </p>
+                    <p class="bg-primary">
+                        Select Diversifier
+                    </p>
+                    <pre>  Header: <a data-toggle="tooltip" title="CLA = 80<br/>INS = 14<br/>P1 = 00<br/>P2 = 00">8014 0000</a><br/>      Lc: <a data-toggle="tooltip" title="8 byte(s)">08</a><br/> Data in: <a data-toggle="tooltip" title="8 byte(s)<br/>Ascii: .....{.">00000000C17BE258</a><br/>      Le: --<br/></pre>
+                </td>
+            </tr>
+            <tr class="warning">
+                <td style="border-color:transparent;">
+                </td>
+                <td style="border-color:transparent;">
+                </td>
+                <td style="border-color:transparent;">
+                    <p class="bg-success">
+                        ★ RESPONSE (execution time 2.4 ms)
+                    </p>
+                    <pre>Data out: --<br/>      SW: <a data-toggle="tooltip" title="SUCCESS">9000</a></pre>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

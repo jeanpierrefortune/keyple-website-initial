@@ -74,3 +74,16 @@
   /* Avoid pushing up the copy buttons. */
   margin: 0;
 }
+
+.article-container {
+    max-width: 1280px;
+}
+.docs-article-container {
+    max-width: 1280px
+}
+#parser-commands {
+  background-color: white;
+}
+.parser-po-row {
+  background-color: lavender !important;
+}

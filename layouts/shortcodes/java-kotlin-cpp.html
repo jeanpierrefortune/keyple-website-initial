@@ -4,7 +4,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </script>
 <!------ Include the above in your HEAD tag ---------->
-<section class="project-tab" id="tabs">
+<section class="project-tab" id="tabs" style="max-width: 1280px;">
     <div class="container">
         <div class="flex-row">
             <div>
@@ -25,15 +25,15 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div aria-labelledby="nav-java-tab" class="tab-pane fade show active" id="nav-java" role="tabpanel">
                     <div>
-                      {{ highlight (.Get "java") "java" "" }}</div>
+                      {{ highlight (.Get "java") "java" "linenos=table" }}</div>
                     </div>
                     <div aria-labelledby="nav-kotlin-tab" class="tab-pane fade" id="nav-kotlin" role="tabpanel">
                       <div>
-                      {{ highlight (.Get "kotlin") "kt" "" }}</div>
+                      {{ highlight (.Get "kotlin") "kt" "linenos=table" }}</div>
                     </div>
                     <div aria-labelledby="nav-cpp-tab" class="tab-pane fade" id="nav-cpp" role="tabpanel">
                       <div>
-                      {{ highlight (.Get "cpp") "cpp" "" }}</div>
+                      {{ highlight (.Get "cpp") "cpp" "linenos=table" }}</div>
                     </div>
                 </div>
             </div>
