@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Global Architecture of Keyple | Eclipse Keyple</title><link>/keyple-website/docs/</link><atom:link href="/keyple-website/docs/index.xml" rel="self" type="application/rss+xml"/><description>Global Architecture of Keyple</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Eclipse Foundation, Inc. All Rights Reserved.</copyright><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>/keyple-website/images/logo_huf486703852f23de97ac27dc4bd4c6f1c_3349_300x300_fit_lanczos_2.png</url><title>Global Architecture of Keyple</title><link>/keyple-website/docs/</link></image><item><title>Asciidoc</title><link>/keyple-website/docs/basic-example/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/keyple-website/docs/basic-example/</guid><description>&lt;nav id="toc" class="toc" role="doc-toc">&lt;h2 id="toc-title">Table of Contents&lt;/h2>&lt;ol class="toc-list level-1">&lt;li>&lt;a href="#_introduction">Introduction&lt;/a>&lt;/li>&lt;li>&lt;a href="#_main">Main&lt;/a>&lt;/li>&lt;li>&lt;a href="#_conclusion">Conclusion&lt;/a>&lt;/li>&lt;/ol>&lt;/nav>&lt;section id="preamble" aria-label="Preamble">&lt;p>An example of a basic &lt;a href="http://asciidoc.org">AsciiDoc&lt;/a> document prepared by Doc Writer.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Global Architecture of Keyple | Eclipse Keyple</title><link>/docs/</link><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><description>Global Architecture of Keyple</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Eclipse Foundation, Inc. All Rights Reserved.</copyright><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>/images/logo_huf486703852f23de97ac27dc4bd4c6f1c_3349_300x300_fit_lanczos_2.png</url><title>Global Architecture of Keyple</title><link>/docs/</link></image><item><title>Asciidoc</title><link>/docs/basic-example/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/docs/basic-example/</guid><description>&lt;nav id="toc" class="toc" role="doc-toc">&lt;h2 id="toc-title">Table of Contents&lt;/h2>&lt;ol class="toc-list level-1">&lt;li>&lt;a href="#_introduction">Introduction&lt;/a>&lt;/li>&lt;li>&lt;a href="#_main">Main&lt;/a>&lt;/li>&lt;li>&lt;a href="#_conclusion">Conclusion&lt;/a>&lt;/li>&lt;/ol>&lt;/nav>&lt;section id="preamble" aria-label="Preamble">&lt;p>An example of a basic &lt;a href="http://asciidoc.org">AsciiDoc&lt;/a> document prepared by Doc Writer.&lt;/p>
 &lt;div class="literal-block">&lt;pre>class BlockProcessor
 class DiagramBlock
 class DitaaBlock
@@ -14,7 +14,7 @@ DiagramBlock &amp;lt;|-- PlantUmlBlock&lt;/pre>&lt;/div>&lt;/section>
 &lt;span class="no">Prawn&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="no">Document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nf">generate&lt;/span> &lt;span class="s1">'example.pdf'&lt;/span> &lt;span class="k">do&lt;/span>
 &lt;span class="n">text&lt;/span> &lt;span class="s1">'Hello, World!'&lt;/span>
 &lt;span class="k">end&lt;/span>&lt;/code>&lt;/pre>&lt;/figure>&lt;/section>
-&lt;section class="doc-section level-1">&lt;h2 id="_conclusion">Conclusion&lt;/h2>&lt;p>That&amp;#8217;s all, folks!&lt;/p>&lt;/section>&lt;section class="footnotes" aria-label="Footnotes" role="doc-endnotes">&lt;hr>&lt;ol class="footnotes">&lt;li class="footnote" id="_footnote_1" role="doc-endnote">AsciiDoc supports unordered, ordered, and description lists. &lt;a class="footnote-backref" href="#_footnoteref_1" role="doc-backlink" title="Jump to the first occurrence in the text">&amp;#8617;&lt;/a>&lt;/li>&lt;li class="footnote" id="_footnote_2" role="doc-endnote">You may choose from square, disc, and circle for the bullet style. &lt;a class="footnote-backref" href="#_footnoteref_2" role="doc-backlink" title="Jump to the first occurrence in the text">&amp;#8617;&lt;/a>&lt;/li>&lt;/ol>&lt;/section></description></item><item><title>Get Started with Keyple-Java</title><link>/keyple-website/docs/getstarted-java/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/keyple-website/docs/getstarted-java/</guid><description>&lt;p>This getting stated contains one ready-to-execute JAVA example starting from a new Gradle project.&lt;/p>
+&lt;section class="doc-section level-1">&lt;h2 id="_conclusion">Conclusion&lt;/h2>&lt;p>That&amp;#8217;s all, folks!&lt;/p>&lt;/section>&lt;section class="footnotes" aria-label="Footnotes" role="doc-endnotes">&lt;hr>&lt;ol class="footnotes">&lt;li class="footnote" id="_footnote_1" role="doc-endnote">AsciiDoc supports unordered, ordered, and description lists. &lt;a class="footnote-backref" href="#_footnoteref_1" role="doc-backlink" title="Jump to the first occurrence in the text">&amp;#8617;&lt;/a>&lt;/li>&lt;li class="footnote" id="_footnote_2" role="doc-endnote">You may choose from square, disc, and circle for the bullet style. &lt;a class="footnote-backref" href="#_footnoteref_2" role="doc-backlink" title="Jump to the first occurrence in the text">&amp;#8617;&lt;/a>&lt;/li>&lt;/ol>&lt;/section></description></item><item><title>Get Started with Keyple-Java</title><link>/docs/getstarted-java/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/docs/getstarted-java/</guid><description>&lt;p>This getting stated contains one ready-to-execute JAVA example starting from a new Gradle project.&lt;/p>
 &lt;p>The example demonstrate Keyple capabilities with the Keyple PCSC plugin and PO/SAM provided in the Calypso Test Kit.&lt;/p>
 &lt;h2 id="code-toggle-test">Code toggle test&lt;/h2>
 &lt;link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" id="bootstrap-css" rel="stylesheet"/>
@@ -22,7 +22,7 @@ DiagramBlock &amp;lt;|-- PlantUmlBlock&lt;/pre>&lt;/div>&lt;/section>
 &lt;/script>
 &lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 &lt;/script>
-&lt;section class="project-tab" id="tabs">
+&lt;section class="project-tab" id="tabs" style="max-width: 1280px;">
 &lt;div class="container">
 &lt;div class="flex-row">
 &lt;div>
@@ -43,27 +43,59 @@ C++
 &lt;div class="tab-content" id="nav-tabContent">
 &lt;div aria-labelledby="nav-java-tab" class="tab-pane fade show active" id="nav-java" role="tabpanel">
 &lt;div>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-java" data-lang="java">SelectionsResult selectionsResult &lt;span style="color:#f92672">=&lt;/span> seSelection&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#a6e22e">processExplicitSelection&lt;/span>&lt;span style="color:#f92672">(&lt;/span>reader&lt;span style="color:#f92672">);&lt;/span>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-java" data-lang="java">SelectionsResult selectionsResult &lt;span style="color:#f92672">=&lt;/span> seSelection&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#a6e22e">processExplicitSelection&lt;/span>&lt;span style="color:#f92672">(&lt;/span>reader&lt;span style="color:#f92672">);&lt;/span>
 &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#f92672">(&lt;/span>selectionsResult&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#a6e22e">hasActiveSelection&lt;/span>&lt;span style="color:#f92672">())&lt;/span> &lt;span style="color:#f92672">{&lt;/span>
 MatchingSe matchingSe &lt;span style="color:#f92672">=&lt;/span> selectionsResult&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#a6e22e">getActiveMatchingSe&lt;/span>&lt;span style="color:#f92672">();&lt;/span>
-&lt;span style="color:#f92672">}&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;span style="color:#f92672">}&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/div>
 &lt;/div>
 &lt;div aria-labelledby="nav-kotlin-tab" class="tab-pane fade" id="nav-kotlin" role="tabpanel">
 &lt;div>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-kt" data-lang="kt">&lt;span style="color:#66d9ef">val&lt;/span> selectionsResult = seSelection.processExplicitSelection(reader)
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-kt" data-lang="kt">&lt;span style="color:#66d9ef">val&lt;/span> selectionsResult = seSelection.processExplicitSelection(reader)
 &lt;span style="color:#66d9ef">if&lt;/span> (selectionsResult.hasActiveSelection()) {
 &lt;span style="color:#66d9ef">val&lt;/span> matchingSe = selectionsResult.activeMatchingSe
-}&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+}&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/div>
 &lt;/div>
 &lt;div aria-labelledby="nav-cpp-tab" class="tab-pane fade" id="nav-cpp" role="tabpanel">
 &lt;div>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="color:#66d9ef">if&lt;/span> (selectionResult&lt;span style="color:#f92672">-&amp;gt;&lt;/span>hasActiveSelection()) {
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="color:#66d9ef">if&lt;/span> (selectionResult&lt;span style="color:#f92672">-&amp;gt;&lt;/span>hasActiveSelection()) {
 std&lt;span style="color:#f92672">::&lt;/span>shared_ptr&lt;span style="color:#f92672">&amp;lt;&lt;/span>MatchingSelection&lt;span style="color:#f92672">&amp;gt;&lt;/span> matchingSelection &lt;span style="color:#f92672">=&lt;/span>
 selectionResult&lt;span style="color:#f92672">-&amp;gt;&lt;/span>getActiveSelection();
 std&lt;span style="color:#f92672">::&lt;/span>shared_ptr&lt;span style="color:#f92672">&amp;lt;&lt;/span>CalypsoPo&lt;span style="color:#f92672">&amp;gt;&lt;/span> calypsoPo &lt;span style="color:#f92672">=&lt;/span>
 std&lt;span style="color:#f92672">::&lt;/span>dynamic_pointer_cast&lt;span style="color:#f92672">&amp;lt;&lt;/span>CalypsoPo&lt;span style="color:#f92672">&amp;gt;&lt;/span>(
 matchingSelection&lt;span style="color:#f92672">-&amp;gt;&lt;/span>getMatchingSe());
-&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -426,7 +458,7 @@ private final static String SAM_READER_NAME = &amp;quot;XXX&amp;quot;;
 &lt;p>seProxyService.getPlugin(PLUGIN_NAME) methode: plugin -&amp;gt; readers -&amp;gt; X -&amp;gt; terminal -&amp;gt; name .&lt;/p>
 &lt;/blockquote>
 &lt;p>Run the application.&lt;/p>
-&lt;p>Note: All project dependencies, including Keyple components, are downloaded during the first run, which can take several minutes.&lt;/p></description></item><item><title>Keyple ‘Core’ – User guide (high level API)</title><link>/keyple-website/docs/keyplecore-userguide/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/keyple-website/docs/keyplecore-userguide/</guid><description>&lt;p>This high-level API is convenient for developers implementing smart card processing application for terminal interfaced with smart card readers.&lt;/p>
+&lt;p>Note: All project dependencies, including Keyple components, are downloaded during the first run, which can take several minutes.&lt;/p></description></item><item><title>Keyple ‘Core’ – User guide (high level API)</title><link>/docs/keyplecore-userguide/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/docs/keyplecore-userguide/</guid><description>&lt;p>This high-level API is convenient for developers implementing smart card processing application for terminal interfaced with smart card readers.&lt;/p>
 &lt;h2 id="packages--features">Packages &amp;amp; features&lt;/h2>
 &lt;p>The Keyple Core User API is a tool to manage readers, and to select “generic” Secure Elements.&lt;/p>
 &lt;table>
@@ -615,7 +647,7 @@ cf.
 &lt;blockquote>
 &lt;p>cf.
 &lt;a href="https://github.com/eclipse/keyple-java/blob/develop/java/example/generic/pc/UseCase4_SequentialMultiSelection/src/main/java/org/eclipse/keyple/example/generic/pc/usecase4/SequentialMultiSelection_Pcsc.java" target="_blank" rel="noopener">“Generic Use Case 4 / Sequential Multi-Selection”&lt;/a> example&lt;/p>
-&lt;/blockquote></description></item><item><title>Keyple Calypso – User guide (high level API)</title><link>/keyple-website/docs/keyplecalypso-userguide/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/keyple-website/docs/keyplecalypso-userguide/</guid><description>&lt;h2 id="packages--features">Packages &amp;amp; features&lt;/h2>
+&lt;/blockquote></description></item><item><title>Keyple Calypso – User guide (high level API)</title><link>/docs/keyplecalypso-userguide/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/docs/keyplecalypso-userguide/</guid><description>&lt;h2 id="packages--features">Packages &amp;amp; features&lt;/h2>
 &lt;p>The &lt;strong>Keyple Calypso User API is an extension of the Keyple Core User API&lt;/strong> to manage Calypso Portable Object securely using Calypso SAM:&lt;/p>
 &lt;ul>
 &lt;li>The generic Secure Element selection is enhanced for the &lt;strong>selection of a Calypso PO&lt;/strong>. The FCI response is automatically analyzed in order to identify the revision and the features supported by the Calypso PO. The invalidation status is also checked.&lt;/li>
@@ -701,7 +733,7 @@ A ‘PO resource’ is the set of a Calypso PO and the reader on which it is sel
 &lt;blockquote>
 &lt;p>cf.
 &lt;a href="https://github.com/eclipse/keyple-java/blob/develop/java/example/calypso/pc/UseCase5_MultipleSession/src/main/java/org/eclipse/keyple/example/calypso/pc/usecase5/MultipleSession_Pcsc.java" target="_blank" rel="noopener">“Calypso Use Case 5 / PO Multiple Session&amp;rdquo;&lt;/a> example&lt;/p>
-&lt;/blockquote></description></item><item><title>Log parser</title><link>/keyple-website/docs/log-parser/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/keyple-website/docs/log-parser/</guid><description>&lt;div class="container">
+&lt;/blockquote></description></item><item><title>Log parser</title><link>/docs/log-parser/</link><pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate><guid>/docs/log-parser/</guid><description>&lt;div class="container">
 &lt;form name="form1">
 &lt;div class="form-group">
 &lt;label for="content">
@@ -741,14 +773,14 @@ Command/Action
 &lt;tbody>
 &lt;/tbody>
 &lt;/table>
-&lt;/div></description></item><item><title/><link>/keyple-website/docs/keyple-plugin-android-nfc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/keyple-website/docs/keyple-plugin-android-nfc/</guid><description>&lt;p>
+&lt;/div></description></item><item><title/><link>/docs/keyple-plugin-android-nfc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/keyple-plugin-android-nfc/</guid><description>&lt;p>
 &lt;a href="./index.md">keyple-plugin-android-nfc&lt;/a>&lt;/p>
 &lt;h3 id="packages">Packages&lt;/h3>
 &lt;p>|
 &lt;a href="org.eclipse.keyple.plugin.android.nfc/index.md">org.eclipse.keyple.plugin.android.nfc&lt;/a> | |&lt;/p>
 &lt;h3 id="index">Index&lt;/h3>
 &lt;p>
-&lt;a href="alltypes/index.md">All Types&lt;/a>&lt;/p></description></item><item><title/><link>/keyple-website/docs/keyple-plugin-android-omapi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/keyple-website/docs/keyple-plugin-android-omapi/</guid><description>&lt;p>
+&lt;a href="alltypes/index.md">All Types&lt;/a>&lt;/p></description></item><item><title/><link>/docs/keyple-plugin-android-omapi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/keyple-plugin-android-omapi/</guid><description>&lt;p>
 &lt;a href="./index.md">keyple-plugin-android-omapi&lt;/a>&lt;/p>
 &lt;h3 id="packages">Packages&lt;/h3>
 &lt;p>|
@@ -759,7 +791,7 @@ Command/Action
 &lt;a href="org.eclipse.keyple.plugin.android.omapi.simalliance.md">org.eclipse.keyple.plugin.android.omapi.simalliance&lt;/a> | |&lt;/p>
 &lt;h3 id="index">Index&lt;/h3>
 &lt;p>
-&lt;a href="alltypes/index.md">All Types&lt;/a>&lt;/p></description></item><item><title/><link>/keyple-website/docs/keyple-plugin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/keyple-website/docs/keyple-plugin/</guid><description>&lt;p>
+&lt;a href="alltypes/index.md">All Types&lt;/a>&lt;/p></description></item><item><title/><link>/docs/keyple-plugin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/keyple-plugin/</guid><description>&lt;p>
 &lt;a href="./index.md">keyple-plugin&lt;/a>&lt;/p>
 &lt;h3 id="index">Index&lt;/h3>
 &lt;p>
