@@ -1,0 +1,41 @@
+<div class="container">
+    <form name="form1">
+        <div class="form-group">
+            <label for="content">
+                Copy/Paste your raw log data here (DEBUG level) and press the parse button:
+            </label>
+            <textarea class="form-control" id="keyple-log-data" name="log" rows="5" style="margin-bottom: 10px;"></textarea>
+            <button class="btn btn-primary btn-md" id="parse">Parse</button>
+            <label>
+                <input name="raw" type="checkbox" value="">
+                    Show raw data
+                </input>
+            </label>
+            <label>
+                <input name="genstub" type="checkbox" value="">
+                    Generate stub commands code
+                </input>
+            </label>
+        </div>
+    </form>
+    <p>
+        The transaction trace:
+    </p>
+    <table id="parser-commands">
+        <thead>
+            <tr>
+                <th>
+                    Step
+                </th>
+                <th>
+                    Target
+                </th>
+                <th>
+                    Command/Action
+                </th>
+            </tr>
+        </thead>
+        <tbody> 
+        </tbody>
+    </table>
+</div>
