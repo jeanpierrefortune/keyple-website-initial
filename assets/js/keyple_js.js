@@ -3,21 +3,21 @@ Thanks to Danny Guo
 https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo/
 */
 function addCopyButtons(clipboard) {
-    document.querySelectorAll('pre > code').forEach(function(codeBlock) {
+    document.querySelectorAll('pre > code').forEach(function (codeBlock) {
         var button = document.createElement('button');
         button.className = 'copy-code-button';
         button.type = 'button';
         button.innerText = 'Copy';
-        button.addEventListener('click', function() {
-            clipboard.writeText(codeBlock.innerText).then(function() {
+        button.addEventListener('click', function () {
+            clipboard.writeText(codeBlock.innerText).then(function () {
                 /* Chrome doesn't seem to blur automatically,
                    leaving the button in a focused state. */
                 button.blur();
                 button.innerText = 'Copied!';
-                setTimeout(function() {
+                setTimeout(function () {
                     button.innerText = 'Copy';
                 }, 2000);
-            }, function(error) {
+            }, function (error) {
                 button.innerText = 'Error';
             });
         });
@@ -30,6 +30,7 @@ function addCopyButtons(clipboard) {
         }
     });
 }
+
 if (navigator && navigator.clipboard) {
     addCopyButtons(navigator.clipboard);
 } else {
@@ -37,12 +38,12 @@ if (navigator && navigator.clipboard) {
     script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard-polyfill/2.7.0/clipboard-polyfill.promise.js';
     script.integrity = 'sha256-waClS2re9NUbXRsryKoof+F9qc1gjjIhc2eT7ZbIv94=';
     script.crossOrigin = 'anonymous';
-    script.onload = function() {
+    script.onload = function () {
         addCopyButtons(clipboard);
     };
     document.body.appendChild(script);
 }
-$(document).ready(function() {
+$(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip({
         html: true
     });
@@ -89,8 +90,8 @@ function createResponseRow(table, status, apdu_r, timestamp) {
     var responseRow = table.insertRow(table.rows.length);
     responseRow.style.backgroundColor = se == 'PO' ? 'lavender' : 'oldlace';
     // Insert empty cells at index 0 & 1
-    var stepCell = responseRow.insertCell(0);
-    var targetCell = responseRow.insertCell(1);
+    responseRow.insertCell(0);
+    responseRow.insertCell(1);
     // Insert the response cell in the row at index 2
     var responseCell = responseRow.insertCell(2);
     var timestampP = document.createElement("p");
@@ -109,6 +110,7 @@ function createResponseRow(table, status, apdu_r, timestamp) {
     // Append command name
     responseCell.appendChild(apduPRE);
 }
+
 var cmdRgx = /.*AbstractLocalReader.*\[(.*)\].*NAME = \"(.*)\", RAWDATA = ([0-9a-fA-F]*),.*elapsed\s([0-9\.]*)\sms/g;
 var rspRgx = /.*ApduResponse:\s([a-zA-Z]*), RAWDATA = ([0-9a-fA-F]*),.*elapsed\s([0-9\.]*)\sms/g;
 var READER = 1;
@@ -121,9 +123,9 @@ var TIMESTAMP_R = 3;
 
 function processLogLine(table, logLine) {
     var groups = cmdRgx.exec(logLine);
-    if (groups != null && groups.length == 5) {
-        var cla = groups[APDU_C].substr(0, 2);
-        if (cla == "80") {
+    if (groups != null && groups.length === 5) {
+        var cla = groups[APDU_C].substr(0, 2), se;
+        if (cla === "80") {
             se = "SAM";
         } else {
             se = "PO";
@@ -131,13 +133,14 @@ function processLogLine(table, logLine) {
         createCommandRow(table, 1, se, groups[TIMESTAMP_C], groups[CMD_NAME], groups[APDU_C]);
     } else {
         groups = rspRgx.exec(logLine);
-        if (groups != null && groups.length == 4) {
+        if (groups != null && groups.length === 4) {
             createResponseRow(table, groups[STATUS], groups[APDU_R], groups[TIMESTAMP_R]);
         }
     }
 }
+
 if (document.getElementById('parse') !== null) {
-    document.getElementById('parse').onclick = function() {
+    document.getElementById('parse').onclick = function () {
         var tableRef = document.getElementById('parser-commands').getElementsByTagName('tbody')[0];
         var lines = document.getElementById('keyple-log-data').value.split('\n');
         for (var i = 0; i < lines.length; i++) {
