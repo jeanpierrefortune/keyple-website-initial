@@ -763,15 +763,16 @@ Generate stub commands code
 The transaction trace:
 &lt;/p>
 &lt;table id="parser-commands">
+&lt;caption>APDU exchanges&lt;/caption>
 &lt;thead>
 &lt;tr>
-&lt;th>
+&lt;th scope="col">
 Step
 &lt;/th>
-&lt;th>
+&lt;th scope="col">
 Target
 &lt;/th>
-&lt;th>
+&lt;th scope="col">
 Command/Action
 &lt;/th>
 &lt;/tr>
